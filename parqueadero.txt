@@ -1,0 +1,11 @@
+create database parqueadero;
+use parqueadero;
+
+
+CREATE TABLE vehiculos (
+  id INT(11) AUTO_INCREMENT,
+  placa VARCHAR(10) NOT NULL,
+  conductor VARCHAR(50) NOT NULL,
+  tiempo_uso INT(11),
+  PRIMARY KEY (id)
+);
